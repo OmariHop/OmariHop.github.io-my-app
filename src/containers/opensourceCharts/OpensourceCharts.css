@@ -15,9 +15,9 @@
   width: 100%;
 }
 /* 
-.tb-item {
-    display: table-cell;
-} */
+  .tb-item {
+      display: table-cell;
+  } */
 
 /* To remove horizontal scroll */
 .main-div {

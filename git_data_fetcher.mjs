@@ -2,12 +2,17 @@ import fetch from "node-fetch";
 import fs from "fs";
 import dotenv from "dotenv";
 
+
+
 dotenv.config();
 
+
 const openSource = {
-  githubConvertedToken: process.env.GITHUB_TOKEN,
-  githubUserName: process.env.GITHUB_USERNAME,
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubUserName: "OmariHop",
 };
+
+
 
 const query_pr = {
   query: `
@@ -48,7 +53,6 @@ const query_pr = {
 
 const query_issue = {
   query: `query{
-
 		user(login: "${openSource.githubUserName}") {
     issues(last: 100, orderBy: {field:CREATED_AT, direction: DESC}){
       totalCount
@@ -78,7 +82,6 @@ const query_issue = {
       }
     }
   }
-
 	}`,
 };
 
