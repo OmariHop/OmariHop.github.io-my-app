@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/OmariHop/https-OmariHop.github.io-my-app.git/precache-manifest.b26f1abe6a07b11959945761c78fbfd0.js"
+  "/OmariHop/https-OmariHop.github.io-my-app.git/precache-manifest.43e3ffea6add7a6da3e239756b11b6e6.js"
 );
 
 self.addEventListener('message', (event) => {
