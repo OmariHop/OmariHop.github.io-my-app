@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Portfolio",
-  "homepage": "https://github.com/OmariHop/https-OmariHop.github.io-my-app.git",
+  "homepage": "https://OmariHop.github.io-my-app.git",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
